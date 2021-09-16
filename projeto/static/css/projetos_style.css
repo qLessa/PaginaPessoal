@@ -1,0 +1,10 @@
+* {
+    margin:0px;
+    font-family:FontUbuntu;
+}
+
+/* UTILIZANDO FONTE EXTERNA */
+@font-face {
+    font-family:FontUbuntu;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}

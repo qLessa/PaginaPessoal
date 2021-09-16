@@ -1,0 +1,173 @@
+* {
+    margin:0px;
+    font-family:FontUbuntu;
+}
+body {
+    position:relative;
+}
+
+/* CABEÇALHO */
+header {
+    position: relative;
+    height: 133px;
+    background: #000000;
+}
+#logotipo {
+    position:absolute;
+    left:250px;
+    top:50px;
+    font-weight:bold;
+    color:white;
+    font-size:30px;
+}
+.navMenu {
+    position:absolute;
+    bottom:37%;
+    left:40%;
+}
+
+.menuAtual {
+    color:#14CFF9;
+    font-weight:bold;
+    margin-right:70px;
+    font-size:30px;
+}
+
+.outrosMenu {
+    color:#ffffff;
+    font-weight:bold;
+    margin-right:70px;
+    font-size:30px;
+}
+
+/* UTILIZANDO FONTE EXTERNA */
+@font-face {
+    font-family:FontUbuntu;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+/* REMOVER EFEITOS AO CLICAR */
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+
+/* REALOCANDO TITULOS E SUB-TITULOS */
+
+.realocaText h1,h2,h3{
+    position:absolute;
+    left:170px;
+    top:210px;
+}
+
+h2 {
+    top:280px;
+}
+h3 {
+    top:330px;
+}
+
+/* REALOCANDO TITULO APLICAÇÕES */
+.appWeb {
+    position:absolute;
+    width:250px;
+    left:170px;
+    top:450px;
+    font-size:20px;
+}
+
+.appMobile {
+    position:absolute;
+    width:250px;
+    left:800px;
+    top:450px;
+    font-size:20px;
+}
+
+.gameIndie {
+    position:absolute;
+    width:250px;
+    left:1430px;
+    top:450px;
+    font-size:20px;  
+}
+
+/* EXEMPLO IMAGENS */
+
+/* APLICAÇÃO WEB */
+.imgAplicacaoWeb {
+    position: relative;
+    width: 214px;
+    height: 190px;
+    left: 172px;
+    top: 450px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 45px;
+}
+
+.ajusteTextoWeb {
+    position:absolute;
+    top:60px;
+    left:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* APLICAÇÃO MOBILE */
+.imgAplicacaoMobile {
+    position: relative;
+    width: 214px;
+    height: 190px;
+    left: 790px;
+    top: 258px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 45px;
+}
+
+.ajusteTextoMobile {
+    position:absolute;
+    top:60px;
+    left:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* GAMES INDIE */
+.imgGameIndie {
+    position: relative;
+    width: 214px;
+    height: 190px;
+    left: 1430px;
+    top: 66px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 45px;
+}
+
+.ajusteTextoIndie{
+    position:absolute;
+    top:60px;
+    left:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+/* RODAPÉ */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 133px;
+    left: -2px;
+    top: 946px;
+    background: #000000;
+}
+
+#logotipo2 {
+    position:absolute;
+    left:250px;
+    top:50px;
+    font-weight:bold;
+    color:white;
+    font-size:30px;
+}
