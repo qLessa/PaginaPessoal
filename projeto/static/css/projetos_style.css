@@ -2,7 +2,6 @@
     margin:0px;
     font-family:FontUbuntu;
 }
-
 /* CABEÇALHO */
 header {
     position: relative;
@@ -36,6 +35,156 @@ header {
     margin-right:70px;
     font-size:30px;
 }
+/* DESCRIÇÃO */
+.posDesc {
+    position:absolute;
+    left:250px;
+    top:200px;
+    font-size:20px;
+}
+.posDesc2 {
+    position:absolute;
+    left:250px;
+    top:250px;
+    font-size:20px;
+}
+.posDesc3 {
+    position:absolute;
+    left:250px;
+    top:330px;
+    font-size:20px;
+}
+/* MAIN */
+main {
+    position:relative;
+}
+/* TITULO */
+.posTitulo {
+    position:absolute;
+    left:250px;
+    top:280px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* LISTA ORDENADA */
+ol {
+    position:absolute;
+}
+li {
+    position:relative;
+    left:230px;
+    top:350px;
+    margin-bottom:10px;
+    font-size:20px;
+    color:#0787A3;
+}
+/* ALOCAR TITULO/IMAGENS */
+/* TELA LOGIN */
+.tituloLogin {
+    position:absolute;
+    font-size:20px;
+    left:410px;
+    top:610px;
+}
+.telaLogin {
+    position: absolute;
+    width: 472px;
+    height: 350px;
+    left: 250px;
+    top: 660px;
+    background: #C4C4C4
+}
+.descLogin {
+    position:absolute;
+    left:130px;
+    top:200px;
+    font-size:20px;
+}
+/* TELA INICIAL */
+.tituloInicial {
+    position:absolute;
+    font-size:20px;
+    left:410px;
+    top:1100px;
+}
+.telaInicial {
+    position: absolute;
+    width: 472px;
+    height: 350px;
+    left: 250px;
+    top: 1150px;
+    background: #C4C4C4
+}
+.descInicial {
+    position:absolute;
+    left:130px;
+    top:200px;
+    font-size:20px;
+}
+/* TELA CADASTRO */
+.tituloCadastro {
+    position:absolute;
+    font-size:20px;
+    left:1200px;
+    top:610px;
+}
+.telaCadastro {
+    position: absolute;
+    width: 472px;
+    height: 350px;
+    left: 1050px;
+    top: 660px;
+    background: #C4C4C4
+}
+.descCadastro {
+    position:absolute;
+    left:130px;
+    top:200px;
+    font-size:20px;
+}
+/* TELA CHEIA */
+.tituloCheia {
+    position:absolute;
+    font-size:20px;
+    left:1230px;
+    top:1100px;
+}
+.telaCheia {
+    position: absolute;
+    width: 472px;
+    height: 350px;
+    left: 1050px;
+    top: 1150px;
+    background: #C4C4C4
+}
+.descCheia {
+    position:absolute;
+    left:130px;
+    top:200px;
+    font-size:20px;
+}
+/* TELA VISUALIZAÇÃO DA INFORMAÇÃO */
+.tituloVisu {
+    position:absolute;
+    font-size:20px;
+    left:720px;
+    top:1620px;
+}
+.telaVisu {
+    position: absolute;
+    width: 472px;
+    height: 350px;
+    left: 650px;
+    top: 1680px;
+    background: #C4C4C4
+}
+.descVisu {
+    position:absolute;
+    left:70px;
+    top:200px;
+    font-size:20px;
+}
 
 /* UTILIZANDO FONTE EXTERNA */
 @font-face {
@@ -50,11 +199,11 @@ a {
 
 /* RODAPÉ */
 footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 133px;
     left: -2px;
-    top: 946px;
+    top: 2100px;
     background: #000000;
 }
 
