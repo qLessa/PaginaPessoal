@@ -1,5 +1,7 @@
 <h1 align=center>Página Pessoal - Design Digital</h1>
 <h2 align=center>Lucas Lessa de Oliveira Silva - 1°Semestre Desenvolvimento de Software Multiplataforma</h2>
+<p><b> Vídeo explicativo </b></p>
+<p><b>https://youtu.be/lYcURYRMvXg</b></p>
 <p><b>Repositório</b></p>
   Dentro da pasta <b>doc</b> contém a seguinte pasta e arquivo:<p></p> 
   <p>doc/<b>prototipo</b></p>
